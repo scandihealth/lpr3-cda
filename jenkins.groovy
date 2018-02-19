@@ -21,15 +21,15 @@ node {
                     sh 'git pull'
                 }
             }
-        }
-        dir('lpr3-cda') {
-            stage('Collect build results') {
-                sh 'cp -r ../../github.dxc.com/modules/cda/cda-schematron/target/cda-schematron*.zip schematron.unstable.zip' 
-            }
-            stage('Publish') {
-                sh 'git add *'
-                sh 'git commit -m "Latest unstable SchemaTron"'
-                sh 'git push'
+            dir('lpr3-cda') {
+                stage('Collect build results') {
+                    sh 'cp -r ../../github.dxc.com/modules/cda/cda-schematron/target/cda-schematron*.zip schematron.unstable.zip' 
+                }
+                stage('Publish') {
+                    sh 'git add *'
+                    sh 'git commit -m "Latest unstable SchemaTron"'
+                    sh 'git push'
+                }
             }
         }
     }

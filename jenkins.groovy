@@ -28,6 +28,8 @@ node {
                 }
                 stage('Publish') {
                     sh 'git add *'
+                    sh 'git config user.email "scandihealth-git@dxc.com"'
+                    sh 'git config user.name "Jenkins CI"'
                     sh 'git commit -m "Latest unstable SchemaTron"'
                     sh 'git push'
                 }

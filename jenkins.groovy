@@ -1,7 +1,7 @@
 node {
     dir('github.dxc.com') {
         stage ('Checkout source') {
-            git credentialsId: 'cjonigkeit_lpr3-jenkins-master_github.csc.com', url: 'git@github.dxc.com:scandihealth/lpr3.git'
+            git credentialsId: 'jenkins-github', url: 'git@github.dxc.com:scandihealth/lpr3.git'
         }
         dir('modules/cda/cda-schematron') {
             stage ('Build') {

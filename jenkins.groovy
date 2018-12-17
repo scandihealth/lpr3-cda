@@ -5,7 +5,7 @@ node {
         }
         dir('modules/cda/cda-schematron') {
             stage ('Build') {
-                withMaven(jdk: 'JDK 8 u152', maven: 'mvn-3.5.0') {
+                withMaven(jdk: 'JDK 8 u152', maven: 'Maven_3.5.4') {
                     sh 'mvn package'
                 }
             }

@@ -1,0 +1,420 @@
+<decor xmlns:cda="urn:hl7-org:v3" xmlns:hl7="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://art-decor.org/ADAR/rv/DECOR.xsd" repository="true" cda:dummy-1="urn:hl7-org:v3" hl7:dummy-2="urn:hl7-org:v3" xsi:dummy-1="http://www.w3.org/2001/XMLSchema-instance">
+    <project id="1.2.208.184.2" prefix="medcom-" experimental="false" defaultLanguage="en-US">
+        <name language="en-US">Medcom</name>
+        <desc language="en-US"/>
+        <desc language="pl-PL">
+            <span style="color: grey;">Description only available in other languages<br/>en-US: </span>
+        </desc>
+        <desc language="nl-NL">
+            <span style="color: grey;">Geen beschrijving in het Nederlands (nl-NL) beschikbaar<br/>en-US: </span>
+        </desc>
+        <desc language="de-DE">
+            <span style="color: grey;">Keine Beschreibung in Deutsch (de-DE) verfügbar<br/>en-US: </span>
+        </desc>
+        <copyright by="CSC" years="2017" type="author"/>
+        <author id="2" username="cjonigkeit" email="cjonigkeit@csc.com" notifier="off">Christian Peter Jonigkeit</author>
+        <author id="3" username="jvilladsen" email="jvilladsen@csc.com" notifier="off">Jens Kristian Villadsen</author>
+        <author id="4" username="cgundersen2" email="cgundersen2@csc.com" notifier="off">Carsten Gundersen</author>
+        <author id="5" username="kmogensen3" email="kmogensen3@csc.com" notifier="off">Karen Mogensen</author>
+        <author id="6" username="mdudzin2" email="mdudzin2@csc.com" notifier="off">Marianne Elsig Dudzinski</author>
+        <author id="7" username="mjorgensen2" email="mjorgensen2@csc.com" notifier="off">Marianne Mogensen</author>
+        <author id="8" username="mklitholm" email="mklitholm@csc.com" notifier="off">Merete Klitholm</author>
+        <author id="9" username="pchristensen" email="pchristensen@csc.com">Preben Christensen</author>
+        <reference logo="medcom.png"/>
+        <defaultElementNamespace ns="hl7:"/>
+        <buildingBlockRepository url="http://art-decor.org/decor/services/" ident="ad2bbr-"/>
+        <buildingBlockRepository url="http://art-decor.org/decor/services/" ident="ad1bbr-"/>
+        <release date="2017-02-15T09:18:01" by="Christian Peter Jonigkeit" versionLabel="V0.9">
+            <note language="en-US">
+                <div>There have been no changes to issues since the last intermediate version or release.</div>
+            </note>
+        </release>
+    </project>
+    <datasets>
+        <dataset id="1.2.208.184.2.1.1" effectiveDate="2017-02-09T11:34:25" statusCode="draft">
+            <name language="en-US">medcom</name>
+            <desc language="en-US"/>
+            <concept id="1.2.208.184.2.2.1" type="item" effectiveDate="2017-02-09T11:34:25" statusCode="draft">
+                <name language="en-US">Concept 1</name>
+                <desc language="en-US"/>
+                <valueDomain type="string"/>
+            </concept>
+        </dataset>
+    </datasets>
+    <scenarios>
+        <actors/>
+    </scenarios>
+    <ids>
+        <baseId id="1.2.208.184.2.1" type="DS" prefix="medcom-dataset-"/>
+        <baseId id="1.2.208.184.2.2" type="DE" prefix="medcom-dataelement-"/>
+        <baseId id="1.2.208.184.2.3" type="SC" prefix="medcom-scenario-"/>
+        <baseId id="1.2.208.184.2.4" type="TR" prefix="medcom-transaction-"/>
+        <baseId id="1.2.208.184.2.5" type="CS" prefix="medcom-codesystem-"/>
+        <baseId id="1.2.208.184.2.6" type="IS" prefix="medcom-issue-"/>
+        <baseId id="1.2.208.184.2.7" type="AC" prefix="medcom-actor-"/>
+        <baseId id="1.2.208.184.2.8" type="CL" prefix="medcom-conceptlist-"/>
+        <baseId id="1.2.208.184.2.9" type="EL" prefix="medcom-template-element-"/>
+        <baseId id="1.2.208.184.2.10" type="TM" prefix="medcom-template-"/>
+        <baseId id="1.2.208.184.2.11" type="VS" prefix="medcom-valueset-"/>
+        <baseId id="1.2.208.184.2.16" type="RL" prefix="medcom-rule-intern-"/>
+        <baseId id="1.2.208.184.2.17" type="TX" prefix="medcom-test-transaction-"/>
+        <baseId id="1.2.208.184.2.18" type="SX" prefix="medcom-test-scenario-"/>
+        <baseId id="1.2.208.184.2.19" type="EX" prefix="medcom-example-instance-"/>
+        <baseId id="1.2.208.184.2.20" type="QX" prefix="medcom-qualification-test-instance-"/>
+        <baseId id="1.2.208.184.2.21" type="CM" prefix="medcom-community-"/>
+        <defaultBaseId id="1.2.208.184.2.1" type="DS"/>
+        <defaultBaseId id="1.2.208.184.2.2" type="DE"/>
+        <defaultBaseId id="1.2.208.184.2.3" type="SC"/>
+        <defaultBaseId id="1.2.208.184.2.4" type="TR"/>
+        <defaultBaseId id="1.2.208.184.2.5" type="CS"/>
+        <defaultBaseId id="1.2.208.184.2.6" type="IS"/>
+        <defaultBaseId id="1.2.208.184.2.7" type="AC"/>
+        <defaultBaseId id="1.2.208.184.2.8" type="CL"/>
+        <defaultBaseId id="1.2.208.184.2.9" type="EL"/>
+        <defaultBaseId id="1.2.208.184.2.10" type="TM"/>
+        <defaultBaseId id="1.2.208.184.2.11" type="VS"/>
+        <defaultBaseId id="1.2.208.184.2.16" type="RL"/>
+        <defaultBaseId id="1.2.208.184.2.17" type="TX"/>
+        <defaultBaseId id="1.2.208.184.2.18" type="SX"/>
+        <defaultBaseId id="1.2.208.184.2.19" type="EX"/>
+        <defaultBaseId id="1.2.208.184.2.20" type="QX"/>
+        <defaultBaseId id="1.2.208.184.2.21" type="CM"/>
+    </ids>
+    <terminology>
+        <valueSet ref="2.16.840.1.113883.1.11.10637" name="PostalAddressUse" displayName="PostalAddressUse"/>
+        <valueSet id="1.2.208.184.2.11.1" name="DKMedcomPostalAddressUse" displayName="DK MedCom PostalAddressUse" statusCode="final" versionLabel="V1.1" effectiveDate="2016-10-24T00:00:00">
+            <desc language="en-US">In this profile the Address Use value set is constrained to include the H
+and WP codes. Other codes are not allowed.<br clear="none"/>
+            </desc>
+            <conceptList>
+                <concept code="BAD" codeSystem="2.16.840.1.113883.5.1119" displayName="bad address" level="0" type="D"/>
+                <concept code="DIR" codeSystem="2.16.840.1.113883.5.1119" displayName="direct" level="0" type="D"/>
+                <concept code="H" codeSystem="2.16.840.1.113883.5.1119" displayName="home address" level="0" type="S"/>
+                <concept code="HP" codeSystem="2.16.840.1.113883.5.1119" displayName="primary home" level="0" type="D"/>
+                <concept code="HV" codeSystem="2.16.840.1.113883.5.1119" displayName="vacation home" level="0" type="D"/>
+                <concept code="PHYS" codeSystem="2.16.840.1.113883.5.1119" displayName="physical visit address" level="0" type="D"/>
+                <concept code="PST" codeSystem="2.16.840.1.113883.5.1119" displayName="postal address" level="0" type="D"/>
+                <concept code="PUB" codeSystem="2.16.840.1.113883.5.1119" displayName="public" level="0" type="D"/>
+                <concept code="TMP" codeSystem="2.16.840.1.113883.5.1119" displayName="temporary address" level="0" type="D"/>
+                <concept code="WP" codeSystem="2.16.840.1.113883.5.1119" displayName="work place" level="0" type="S"/>
+            </conceptList>
+        </valueSet>
+        <valueSet ref="2.16.840.1.113883.1.11.10609" name="NullFlavor" displayName="NullFlavor"/>
+        <valueSet name="DKMedComNullFlavor" displayName="DK MedCom NullFlavor" versionLabel="V1.1" id="1.2.208.184.2.11.2" statusCode="final" effectiveDate="2016-10-24T00:00:00">
+            <desc language="en-US">
+                <p>In this profile the NullFlavor value set is constrained to include the NI and
+NA concept codes. Other concepts codes are not allowed.</p>
+            </desc>
+            <conceptList>
+                <concept code="NI" codeSystem="2.16.840.1.113883.5.1008" displayName="NoInformation" level="0" type="S"/>
+                <concept code="INV" codeSystem="2.16.840.1.113883.5.1008" displayName="invalid" level="1" type="D"/>
+                <concept code="DER" codeSystem="2.16.840.1.113883.5.1008" displayName="derived" level="2" type="D"/>
+                <concept code="OTH" codeSystem="2.16.840.1.113883.5.1008" displayName="other" level="2" type="D"/>
+                <concept code="NINF" codeSystem="2.16.840.1.113883.5.1008" displayName="negative infinity" level="3" type="D"/>
+                <concept code="PINF" codeSystem="2.16.840.1.113883.5.1008" displayName="positive infinity" level="3" type="D"/>
+                <concept code="UNC" codeSystem="2.16.840.1.113883.5.1008" displayName="un-encoded" level="2" type="D"/>
+                <concept code="MSK" codeSystem="2.16.840.1.113883.5.1008" displayName="masked" level="1" type="D"/>
+                <concept code="NA" codeSystem="2.16.840.1.113883.5.1008" displayName="not applicable" level="1" type="L"/>
+                <concept code="UNK" codeSystem="2.16.840.1.113883.5.1008" displayName="unknown" level="1" type="D"/>
+                <concept code="ASKU" codeSystem="2.16.840.1.113883.5.1008" displayName="asked but unknown" level="2" type="D"/>
+                <concept code="NAV" codeSystem="2.16.840.1.113883.5.1008" displayName="temporarily unavailable" level="3" type="D"/>
+                <concept code="NASK" codeSystem="2.16.840.1.113883.5.1008" displayName="not asked" level="2" type="D"/>
+                <concept code="NAVU" codeSystem="2.16.840.1.113883.5.1008" displayName="Not available" level="2" type="D"/>
+                <concept code="NAV" codeSystem="2.16.840.1.113883.5.1008" displayName="temporarily unavailable" level="3" type="D"/>
+                <concept code="QS" codeSystem="2.16.840.1.113883.5.1008" displayName="Sufficient Quantity" level="2" type="D"/>
+                <concept code="TRC" codeSystem="2.16.840.1.113883.5.1008" displayName="trace" level="2" type="D"/>
+            </conceptList>
+        </valueSet>
+    </terminology>
+    <rules>
+        <template id="1.2.208.184.2.10.1" name="DKMedcomPersonalIdentification" displayName="DK Medcom Personal Identification" effectiveDate="2016-10-24T00:00:00" isClosed="false" versionLabel="V1.1" statusCode="active">
+            <desc language="en-US">The Danish Personal Identification number (Danish: CPR-nummer or
+      personnummer) is a national identification number, which is part of the
+      personal information stored in the Civil Registration System (Danish: Det
+      Centrale Personregister).
+      It is a ten-digit number with the format DDMMYYSSSS, where DDMMYY is
+      the date of birth and SSSS is a sequence number. The last digit of the
+      sequence number is odd for males and even for females.<br clear="none"/>
+                <br clear="none"/>If the Danish Personal Identification number is unknown a validated
+      replacement Danish Personal Identification number <b>SHALL</b> be used.<br clear="none"/>(CONF-DK: 1)<br clear="none"/>
+            </desc>
+            <classification type="datatypelevel"/>
+            <example type="valid">
+                <id extension="2512484916" root="1.2.208.176.1.2" assigningAuthorityName="CPR"/>
+            </example>
+            <element name="hl7:id" datatype="II" conformance="R" isMandatory="true" id="1.2.208.184.2.9.1">
+                <desc language="en-US">The <i>id</i> element <b>SHALL</b> be present<br clear="none"/>
+                    <br clear="none"/>
+                </desc>
+                <item label="CONF-DK: 2"/>
+                <attribute name="extension" datatype="st" id="1.2.208.184.2.9.3">
+                    <desc language="en-US">The value of the @<i>extension</i>&#160;<b>SHALL</b> be a valid Danish Personal Identification number (cpr-nummer)</desc>
+                    <item label="CONF-DK: 3"/>
+                </attribute>
+                <attribute name="root" value="1.2.208.176.1.2" datatype="oid" id="1.2.208.184.2.9.2">
+                    <desc language="en-US">The value of the @<i>root</i>&#160;<b>SHALL</b> be set to the associated OID for “Det Centrale Personregister”<br clear="none"/>
+                        <br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 4"/>
+                </attribute>
+                <attribute name="assigningAuthorityName" value="CPR" datatype="st" id="1.2.208.184.2.9.4">
+                    <desc language="en-US">The value of the @<i>assignedAuthorityName</i>&#160;<b>SHALL</b> be set to “CPR”.<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 5"/>
+                </attribute>
+                <assert role="error" test="matches(@extension, '^[0-9]{10}$')">The value of the @extension SHALL be a valid Danish Personal Identification number (cpr-nummer)</assert>
+            </element>
+        </template>
+        <!-- Danish Personal Name -->
+        <template id="1.2.208.184.2.10.2" name="DKMedcomPersonalName" displayName="DK Medcom Personal Name" effectiveDate="2016-10-24T00:00:00" statusCode="active" isClosed="false" versionLabel="V1.1">
+            <desc language="en-US">The <i>name</i> element is a set of reusable constraints that can be used for the
+      patient or any other person. It requires a first (<i>given</i>) and last (<i>family</i>)
+      name. One or more middle names can be inserted between the first and
+      last name. If a patient or person has only one name part (e.g., patient
+      with first name only) then place the name part in the best matching field.
+      Use the appropriate <i>nullFlavor</i>, "Not Applicable" (NA), in the other field.<br clear="none"/>
+            </desc>
+            <classification type="datatypelevel"/>
+            <example type="valid" caption="Name example">
+                <name>
+                    <given>Nancy</given>
+                    <given>Ann</given>
+                    <family>Berggren</family>
+                </name>
+            </example>
+            <example type="valid" caption="Prefix example">
+                <name>
+                    <prefix>Læge</prefix>
+                    <given>Anders</given>
+                    <family>Andersen</family>
+                </name>
+            </example>
+            <element name="hl7:name" datatype="PN" id="1.2.208.184.2.9.5">
+                <element name="hl7:family" datatype="ENXP" minimumMultiplicity="1" maximumMultiplicity="1" conformance="R" isMandatory="false" id="1.2.208.184.2.9.8">
+                    <desc language="en-US">
+                        <b>SHALL</b> contain exactly one [1..1] <i>family</i> element. In this profile the @<i>qualifier</i> is not used.<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 6"/>
+                    <attribute name="nullFlavor" value="NA" datatype="cs" isOptional="true" id="1.2.208.184.2.9.9"/>
+                </element>
+                <element name="hl7:given" datatype="ENXP" minimumMultiplicity="1" maximumMultiplicity="*" conformance="R" isMandatory="false" id="1.2.208.184.2.9.6">
+                    <desc language="en-US">
+                        <b>SHALL</b> contain at least one [1..*] <i>given</i> element. In this profile the @<i>qualifier</i> is not used. The second occurrence of <i>given</i> (given[2]) if provided, <b>SHALL</b> include middle name or middle initial.<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 7"/>
+                    <attribute name="nullFlavor" value="NA" datatype="cs" isOptional="true" id="1.2.208.184.2.9.7"/>
+                </element>
+                <element name="hl7:prefix" datatype="ENXP" minimumMultiplicity="0" maximumMultiplicity="1" id="1.2.208.184.2.9.10">
+                    <desc language="en-US">
+                        <b>MAY</b> contain one [0..1] <i>prefix</i> element, e.g. to include the title for a health professional. In this profile the @<i>qualifier</i> is not used.<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 8"/>
+                </element>
+            </element>
+        </template>
+        <template id="1.2.208.184.2.10.3" name="DKMedcomHospitalIdentification" displayName="DK Medcom Hospital Identification" effectiveDate="2016-10-24T00:00:00" statusCode="active" isClosed="false" versionLabel="V1.1">
+            <desc language="en-US">The hospital sector is the responsibility of the five regions.
+It is normally necessary to be referred by a general practitioner to a
+hospital for medical examination and treatment, unless it is a question of
+an accident or an acute illness. It will also normally be necessary to be
+referred by a general practitioner for treatment by a specialist.<br clear="none"/>
+                <br clear="none"/>The hospitals are responsible for specialised examinations, treatment and
+care of somatic and mental illnesses which it would not be more
+expedient to treat in the primary or social sector because of the need for
+specialist knowledge, equipment or intensive care and monitoring. <br clear="none"/>
+                <br clear="none"/>The Health Service Organisation Registry (Danish: Sundhedsvæsenets
+Organisationsregister - SOR) includes organisation and address
+information for the public and private Hospitals in Denmark.<br clear="none"/>
+            </desc>
+            <classification type="datatypelevel"/>
+            <example type="valid">
+                <id extension="328151000016009" root="1.2.208.176.1.1" assigningAuthorityName="SOR"/>
+            </example>
+            <element name="hl7:id" datatype="II" isMandatory="true" id="1.2.208.184.2.9.11">
+                <desc language="en-US">The <i>id</i>&#160;<b>SHALL</b> be present.</desc>
+                <item label="CONF-DK: 19"/>
+                <attribute name="extension" datatype="st" id="1.2.208.184.2.9.12">
+                    <desc language="en-US">The value of the @<i>extension</i>&#160;<b>SHALL</b> be valid SOR code for a Hospital or
+a Hospital ward.<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 20"/>
+                </attribute>
+                <attribute name="root" value="1.2.208.176.1.1" datatype="oid" id="1.2.208.184.2.9.13">
+                    <desc language="en-US">The value of the @<i>root</i>&#160;<b>SHALL</b> be set to the associated OID for
+Sundhedsvæsenets Organisationsregister.<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 21"/>
+                </attribute>
+                <attribute name="assigningAuthorityName" value="SOR" datatype="st" id="1.2.208.184.2.9.14">
+                    <desc language="en-US">The value of the @<i>assignedAuthorityName</i>&#160;<b>SHALL</b> be set to “SOR”<br clear="none"/>
+                    </desc>
+                    <item label="CONF-DK: 22"/>
+                </attribute>
+            </element>
+        </template>
+        <template id="1.2.208.184.2.10.4" name="DKMedcomConfidentialityCode" displayName="DK Medcom Confidentiality Code" effectiveDate="2016-10-24T00:00:00" statusCode="active" isClosed="false" versionLabel="V1.1">
+            <desc language="en-US">
+                <div>The <i>ClinicalDocument/confidentialityCode</i>&#160;<b>SHALL</b> be present. It specifies the confidentiality assigned to the document.</div>
+                <div>The @<i>code</i> value <b>SHALL</b> be selected from the CDA Confidentiality Kind Value Set.</div>
+                <div>The @<i>codeSystem</i> value <b>SHALL</b> be set to the associated OID for the HL7 Confidentiality</div>
+            </desc>
+            <classification type="datatypelevel"/>
+            <item label="CONF-DK: 36"/>
+            <example type="valid">
+                <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+            </example>
+            <element name="hl7:confidentialityCode" datatype="CE" id="1.2.208.184.2.9.15">
+                <attribute name="code" value="N" datatype="cs" id="1.2.208.184.2.9.16"/>
+                <attribute name="codeSystem" value="2.16.840.1.113883.5.25" datatype="oid" id="1.2.208.184.2.9.17"/>
+            </element>
+        </template>
+<!-- DK Timestamp -->
+        <templateAssociation templateId="1.2.208.184.2.10.6" effectiveDate="2016-10-24T00:00:00"/>
+        <template id="1.2.208.184.2.10.6" name="DKMedcomTimestampBody" displayName="DK Medcom Timestamp (Body)" effectiveDate="2016-10-24T00:00:00" statusCode="active" isClosed="false" versionLabel="V1.1">
+            <desc language="en-US">Events occurring at a single point in time that are represented in the Clinical Document Header will in general be precise to the time. These point-in-time events are the time of creation of the document; the starting time of participation by an author, data enterer or the starting and ending time of an encounter.</desc>
+            <classification type="datatypelevel"/>
+            <example type="valid" caption="Timestamp example">
+                <art:placeholder xmlns:art="urn:art-decor:example" value="20170215112652"/>
+            </example>
+            <attribute name="value" datatype="ts" id="1.2.208.184.2.9.18">
+                <desc language="en-US">
+                    <div>The representation of time <b>SHALL</b>&#160;use the format YYYYMMDDhhmmss±ZZzz<br/>
+                        <br/>
+                        <style>
+            .mtr:nth-child(odd) {
+            background-color: #ffeeee;
+            }
+          </style>
+                        <div>
+                            <table style="border-collapse: collapse; width: 100%">
+                                <tbody>
+                                    <tr class="mtr">
+                                        <th style="border: 1px solid #ffeeee; text-align: left; font-size: 12px;background-color: #ffeeee">Token</th>
+                                        <th style="border: 1px solid #ffeeee; text-align: left; font-size: 12px;background-color: #ffeeee">Description</th>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">YYYY</td>
+                                        <td style="border: 1px solid #ffeeee">The year of the event</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">MM</td>
+                                        <td style="border: 1px solid #ffeeee">The month in the year</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">DD</td>
+                                        <td style="border: 1px solid #ffeeee">The day in the month</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">hh</td>
+                                        <td style="border: 1px solid #ffeeee">The hour in the day</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">mm</td>
+                                        <td style="border: 1px solid #ffeeee">The minute of in the hour</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">ss</td>
+                                        <td style="border: 1px solid #ffeeee">The second in the minute</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">±</td>
+                                        <td style="border: 1px solid #ffeeee">Direction of the offset from UTC</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">ZZ</td>
+                                        <td style="border: 1px solid #ffeeee">Hours offset from UTC</td>
+                                    </tr>
+                                    <tr class="mtr">
+                                        <td style="border: 1px solid #ffeeee">zz</td>
+                                        <td style="border: 1px solid #ffeeee">Minutes offset in the hours offset from UTC</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </desc>
+                <item label="CONF-DK: 34"/>
+            </attribute>
+            <assert role="error" test="matches(@value,'^[0-9]{14}[\+|\-][0-9]{4}$')">The representation of time SHALL use the format YYYYMMDDhhmmss±ZZzz</assert>
+        </template>
+        <template id="1.2.208.184.2.10.7" name="DKMedcomAddress" displayName="DK Medcom Address" effectiveDate="2016-10-24T00:00:00" statusCode="active" isClosed="false" versionLabel="V1.1">
+            <desc language="en-US">
+                <div>This template <b>SHOULD </b>be used for addresses in the <i>dan-DK</i> realm.</div>
+            </desc>
+            <classification type="datatypelevel"/>
+            <example type="valid">
+                <addr use="H">
+                    <streetAddressLine>Hunderupvej 158</streetAddressLine>
+                    <postalCode>5230</postalCode>
+                    <city>Odense M</city>
+                    <country>Danmark</country>
+                </addr>
+            </example>
+            <element name="hl7:addr" datatype="AD" id="1.2.208.184.2.9.19">
+                <include ref="1.2.208.184.2.10.8"/>
+            </element>
+        </template>
+        <!-- DK Medcom Address (Body) -->
+        <templateAssociation templateId="1.2.208.184.2.10.8" effectiveDate="2016-10-24T00:00:00"/>
+        <template id="1.2.208.184.2.10.8" name="DKMedcomAddressBody" displayName="DK Medcom Address (Body)" statusCode="active" isClosed="false" versionLabel="V1.1" effectiveDate="2016-10-24T00:00:00">
+    <desc language="en-US">
+      <div>This template <b>SHOULD </b>be used for addresses in the <i>dan-DK</i> realm.</div>
+    </desc>
+    <classification type="cdaentrylevel"/>
+    <example type="valid">
+      <addr use="H">
+        <streetAddressLine>Hunderupvej 158</streetAddressLine>
+        <postalCode>5230</postalCode>
+        <city>Odense M</city>
+        <country>Danmark</country>
+      </addr>
+    </example>
+    <attribute name="use" datatype="set_cs" isOptional="true" id="1.2.208.184.2.9.20">
+      <desc language="en-US">
+        <b>SHOULD </b>contain @<i>use</i>, which <b>SHALL </b>be selected from ValueSet DK MedCom PostalAddressUse.
+      </desc>
+      <item label="CONF-DK: 9">
+        <desc language="en-US">
+          <div>
+            <b>SHOULD </b>contain @<i>use</i>, which <b>SHALL </b>be selected from <i>ValueSet </i>PostalAddressUse.</div>
+        </desc>
+      </item>
+      <vocabulary valueSet="1.2.208.184.2.11.1" flexibility="dynamic"/>
+    </attribute>
+    <element name="hl7:streetAddressLine" datatype="ADXP" minimumMultiplicity="1" maximumMultiplicity="4" conformance="R" id="1.2.208.184.2.9.21">
+      <desc language="en-US">
+        <b>SHALL </b>contain at least one and not more than 4 <i>streetAddressLine</i>.<br clear="none"/>
+      </desc>
+      <item label="CONF-DK: 10"/>
+      <attribute name="nullFlavor" datatype="cs" isOptional="true" id="1.2.208.184.2.9.25">
+        <vocabulary valueSet="1.2.208.184.2.11.2" flexibility="dynamic"/>
+      </attribute>
+    </element>
+    <element name="hl7:postalCode" datatype="ADXP" minimumMultiplicity="1" maximumMultiplicity="1" conformance="R" id="1.2.208.184.2.9.22">
+      <desc language="en-US">
+        <b>SHALL </b>contain exactly one [1..1] <i>postalcode</i>.<br clear="none"/>
+      </desc>
+      <item label="CONF-DK: 11"/>
+      <attribute name="nullFlavor" datatype="cs" isOptional="true" id="1.2.208.184.2.9.26">
+        <vocabulary valueSet="1.2.208.184.2.11.2" flexibility="dynamic"/>
+      </attribute>
+    </element>
+    <element name="hl7:city" datatype="ADXP" minimumMultiplicity="1" maximumMultiplicity="1" conformance="R" id="1.2.208.184.2.9.23">
+      <desc language="en-US">
+        <b>SHALL </b>contain exactly one [1..1] <i>city</i>.<br clear="none"/>
+      </desc>
+      <item label="CONF-DK: 12"/>
+      <attribute name="nullFlavor" datatype="cs" isOptional="true" id="1.2.208.184.2.9.27">
+        <vocabulary valueSet="1.2.208.184.2.11.2" flexibility="dynamic"/>
+      </attribute>
+    </element>
+    <element name="hl7:country" datatype="ADXP" minimumMultiplicity="0" maximumMultiplicity="1" conformance="R" id="1.2.208.184.2.9.24">
+      <desc language="en-US">
+        <b>SHOULD </b>contain zero or one [0..1] <i>country</i>.<br clear="none"/>
+      </desc>
+      <item label="CONF-DK: 13"/>
+    </element>
+  </template>
+    </rules>
+    <issues notifier="off"/>
+</decor>
